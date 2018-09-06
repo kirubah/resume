@@ -2,16 +2,37 @@
     "name": "Karthik Abimanyu",
     "title": "UI Engineer",
     "location": "San Francisco Bay Area",
-    "linkedin": "www.linkedin.com/in/karthik-abimanyu",
+    "linkedin": "https://linkedin.com/in/karthik-abimanyu",
     "github":"https://github.com/fillipio",
     "address": ["527 Adeline Ave,", "San Jose, CA 95136"],
     "mobile": "518-256-9246",
     "email": "yehkay.droid@gmail.com",
-    "Profile": "I am a full stack developer who loves learning and building high quality software. My passion is to work on creative solutions to real problems alongside a team of smart, dedicated colleagues. I value collaboration and open communication and pride myself on building close working relationships with the people around me.",
-    "Experience":[
+    "profile": "I am a full stack developer who loves learning and building high quality software. My passion is to work on creative solutions to real problems alongside a team of smart, dedicated colleagues. I value collaboration and open communication and pride myself on building close working relationships with the people around me.",
+    "experience":[
         {
             "title": "Software Engineer",
             "period": "Feb 2014 - present",
+            "location": "San Jose",
+            "points":[
+                "Full stack iOS developer working on a cloud-first, microservices based system involving video content delivery to TV applications on multiple client platforms (Set Top Boxes or STBs, iPads/iPhones, Android tablets/Phones etc).",
+                "Designed, developed & unit tested components across the full stack, from Control Plane (RESTful backend web services) to iOS app on iPads and iPhones.",
+                "Led reviews for architectural discussions on MVP feature decomposition which accelerated feature development velocity by 30%."
+            ] 
+        },
+        {
+            "title": "Software Engineer",
+            "period": "Feb 2014 - present",
+            "location": "San Jose",
+            "points":[
+                "Full stack iOS developer working on a cloud-first, microservices based system involving video content delivery to TV applications on multiple client platforms (Set Top Boxes or STBs, iPads/iPhones, Android tablets/Phones etc).",
+                "Designed, developed & unit tested components across the full stack, from Control Plane (RESTful backend web services) to iOS app on iPads and iPhones.",
+                "Led reviews for architectural discussions on MVP feature decomposition which accelerated feature development velocity by 30%."
+            ] 
+        },
+        {
+            "title": "Software Engineer",
+            "period": "Feb 2014 - present",
+            "location": "San Jose",
             "points":[
                 "Full stack iOS developer working on a cloud-first, microservices based system involving video content delivery to TV applications on multiple client platforms (Set Top Boxes or STBs, iPads/iPhones, Android tablets/Phones etc).",
                 "Designed, developed & unit tested components across the full stack, from Control Plane (RESTful backend web services) to iOS app on iPads and iPhones.",
@@ -19,15 +40,21 @@
             ] 
         }
     ],
-    "Education": [
+    "education": [
         {
             "title": "Rensselaer Polytechnic Institute",
             "subtitle": "M.S, Information Technology & Web Sciences",
-            "duration": "2012 - 2013",
+            "period": "2012 - 2013",
+            "grade": "GPA 3.8/4.0"
+        },
+        {
+            "title": "Rensselaer Polytechnic Institute",
+            "subtitle": "M.S, Information Technology & Web Sciences",
+            "period": "2012 - 2013",
             "grade": "GPA 3.8/4.0"
         }
     ],
-    "Languages": ["Javascript", "Java"],
-    "Tools / Frameworks": ["Node", "Expess", "React", "Redux", "Polymer"],
-    "Others": ["Design patterns", "ARC"]
+    "languages": ["Javascript", "Java"],
+    "tools": ["Node", "Expess", "React", "Redux", "Polymer"],
+    "others": ["Design patterns", "ARC"]
 }

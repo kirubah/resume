@@ -2,89 +2,40 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <style type="text/css">
-        html,
-        body {
-            height: 100%;
-            overflow: hidden;
-            color: white;
-            font-family: sans-serif;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-gap: 16px 32px;
-        }
-
-        .sub-grid {
-            grid-column-gap: 0;
-        }
-
-        #container {
-            max-width: 960px;
-            margin: auto;
-            height: 100%;
-        }
-
-        #container>* {
-            grid-column: span 8;
-        }
-
-        #header,
-        #profile {
-            grid-column: span 12;
-        }
-
-        #container>.aside {
-            grid-column: span 4;
-        }
-
-        #others {
-            grid-column: -1 span;
-        }
-
-        @media (max-width: 640px) {
-            body{
-                background: yellow;
-            }
-            #container>* {
-                grid-column: span 12;
-            }
-            #container>.aside {
-                grid-column: span 12;
-            }
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, maximum-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div id="container" class="grid">
-        <div id="header" style="order:1; background:darkslateblue;">
+        <div id="header">
             <div id="idcard"></div>
             <div id="contact"></div>
         </div>
-        <div id="profile" style="order:2; background: crimson;">
+        <div id="profile">
             <h4>Profile</h4>
         </div>
-        <div id="experience" style="order:3; background:darkorange;">
-            <h4>Experience</h4>
-        </div>
-        <div id="education" style="order:5; background: darkcyan;">
-            <h4>Education</h4>
-        </div>
-        <div id="languages" class="aside" style="order:4; background: darkviolet;">
-            <h4>Languages</h4>
-        </div>
-        <div id="tools" class="aside" style="order:6; background: darkmagenta;">
-            <h4>Tools / Frameworks</h4>
-        </div>
-        <div id="others" class="aside" style="order:7; background: dodgerblue;">
-            <h4>Others</h4>
-        </div>
+        <main class="grid sub-grid">
+            <div id="experience" >
+                <h4>Experience</h4>
+            </div>
+            <div id="education">
+                <h4>Education</h4>
+            </div>
+        </main>
+        <aside class="grid sub-grid">
+            <div id="languages" class="">
+                <h4>Languages</h4>
+            </div>
+            <div id="tools" class="">
+                <h4>Tools / Frameworks</h4>
+            </div>
+            <div id="others" class="">
+                <h4>Others</h4>
+            </div>
+        </aside>
     </div>
 </body>
-<script type="text/javascript"></script>
-
+<script type="text/javascript" src="app.js"></script>
 </html>
