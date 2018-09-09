@@ -8,6 +8,9 @@ function getNode(s, nodeType='div'){
     wrapper.innerHTML = s;
     return wrapper;
 }
+function getIcon(type){
+    return `<svg class="icon"><use href="#${type}"></use></svg>`
+}
 function list(items, nodeType='li'){
     return `${items.reduce((markup, a)=>markup+`<${nodeType}>${a}</${nodeType}>`, "")}`;
 }
@@ -15,16 +18,32 @@ function idcard({name, title, location, linkedin, github}){
     return `
         <div class="idcard-name">${name}</div>
         <div class="idcard-title">${title}</div>
-        <div class="idcard-location">${location}</div>
-        <div><a href="${linkedin}" class="idcard-linkedin">${linkedin}</a></div>
-        <div><a href="${github}" class="idcard-github">${github}</a></div>
+        <div class="idcard-location icon-div">
+            ${getIcon("location")}
+            ${location}
+        </div>
+        <div><a href="${linkedin}" class="idcard-linkedin icon-div">
+            ${getIcon("linkedin")}
+            ${linkedin}
+        </a></div>
+        <div><a href="${github}" class="idcard-github icon-div">
+            ${getIcon("github")}
+            ${github}
+        </a></div>
     `;
 }
 function contact({address, mobile, email}){
     return `
-        ${address.reduce((markup, a)=>markup+`<div>${a}</div>`, "")}
-        <div>${mobile}</div>
-        <div><a href="mailto:${email}" class="contact-email">${email}</a></div>
+        ${address.reduce((markup, a)=>markup+`<div class="address-line">${a}</div>`, "")}
+        <div><a class="icon-div" href="tel:${mobile}">
+            ${getIcon("phone")}
+            ${mobile}
+        </a>
+        </div>
+        <div"><a class="icon-div" href="mailto:${email}" class="contact-email">
+            ${getIcon("mail")}
+            ${email}
+        </a></div>
     `;
 }
 function experience(item){
@@ -32,8 +51,14 @@ function experience(item){
         <div class="head">
             <div class="left">${item.title}</div>
             <div class="right">
-                <div class="period">${item.period}</div>
-                <div class="location">${item.location}</div>
+                <div class="period icon-div">
+                    ${getIcon("calendar")}
+                    ${item.period}
+                </div>
+                <div class="location icon-div">
+                    ${getIcon("location")}
+                    ${item.location}
+                </div>
             </div>
         </div>
         <ul>
@@ -48,8 +73,14 @@ function education(item){
         <div class="subtitle">${item.subtitle}</div>
     </div>
     <div class="right">
-        <div class="period">${item.period}</div>
-        <div class="grade">${item.grade}</div>
+        <div class="period icon-div">
+            ${getIcon("calendar")}
+            ${item.period}
+        </div>
+        <div class="grade icon-div grade-icon">
+            ${getIcon("list")}
+            ${item.grade}
+        </div>
     </div>
     `   
 }

@@ -23,13 +23,8 @@ body {
 }
 a{
     text-decoration: none;
-    border-bottom: 1px solid #033dad24;
     transition: all 0.3s;
 }
-a:hover{
-    border-bottom: 1px solid #033dad;    
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -41,6 +36,21 @@ a:hover{
 }
 .sub-grid {
     grid-column-gap: 0;
+}
+.icon{
+    width: 12px;
+    height: 12px;
+    padding: 2px 6px 2px 0;
+    fill: grey;
+}
+.grade-icon .icon{
+    width: 14px;
+    height: 14px;
+    padding: 0 4px 0 0;
+}
+.icon-div{
+    display: flex;
+    padding: 2px 2px 2px 0;
 }
 #container {
     max-width: 768px;
@@ -71,7 +81,7 @@ a:hover{
     font-size: var(--font-hero);
     margin-bottom: 6px;
 }
-.idcard-title{
+.idcard-title, .idcard-location, #contact{
     color: var(--accent-color);
 }
 .idcard-linkedin, .idcard-github{
@@ -94,9 +104,11 @@ h4{
     align-items: center;
     font-size: var(--font-xm);
     font-weight: 600;
+    color: var(--accent-color);
 }
 .head .right{
     font-size: var(--font-s);
+    color: var(--accent-color);
 }
 #profile > div, #experience > div, #education > div{
    padding-left: 18px;
@@ -128,10 +140,62 @@ h4{
     column-count: 2;
 }
 @media (max-width: 640px) {
-    body{
-        background: lightgoldenrodyellow;
-    }
     #container>* {
         grid-column: span 12;
+    }
+    #header{
+        flex-direction: column;
+    }
+    #idcard > div, #contact > div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #idcard > div > div, #contact > div > div{
+        margin-right: 18px
+    }
+    .idcard-name{
+        text-align: center;
+        width: 100%;
+    }
+    #contact{
+        margin: 0;
+        margin-top: 2px;
+    }
+    #contact > div > div.address-line:first-child{
+        margin-right: 6px;
+    }
+    h4{
+        font-size: var(--font-l);
+        text-align: center;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .head > div{
+        display: flex;
+        justify-content: center;
+    }
+    .head .right{
+        flex-direction: row;
+    }
+    .head .right > div{
+        display: inline-flex;
+        margin-right: 12px;
+    }
+    #education section{
+        flex-direction: column;
+    }
+    #education section > div{
+        justify-content: center;
+        text-align: center;
+    }
+    #education .right{
+        flex-direction: row;
+    }
+    #education .right > div{
+        display: inline-flex;
+        margin-right: 12px;
     }
 }

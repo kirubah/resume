@@ -1,12 +1,12 @@
 {
-    "name": "Karthik Abimanyu",
-    "title": "UI Engineer",
+    "name": "John Doe",
+    "title": "Full Stack Engineer",
     "location": "San Francisco Bay Area",
     "linkedin": "https://linkedin.com/in/karthik-abimanyu",
-    "github":"https://github.com/fillipio",
-    "address": ["527 Adeline Ave,", "San Jose, CA 95136"],
-    "mobile": "518-256-9246",
-    "email": "yehkay.droid@gmail.com",
+    "github":"https://github.com/xyz",
+    "address": ["527 xyzline Ave,", "xyz land, CA 12345"],
+    "mobile": "+1-123-456-9867",
+    "email": "xyz@gmail.com",
     "profile": "I am a full stack developer who loves learning and building high quality software. My passion is to work on creative solutions to real problems alongside a team of smart, dedicated colleagues. I value collaboration and open communication and pride myself on building close working relationships with the people around me.",
     "experience":[
         {
@@ -42,15 +42,15 @@
     ],
     "education": [
         {
-            "title": "Rensselaer Polytechnic Institute",
-            "subtitle": "M.S, Information Technology & Web Sciences",
+            "title": "Awesome University",
+            "subtitle": "M.S, Computer Science",
             "period": "2012 - 2013",
             "grade": "GPA 3.8/4.0"
         },
         {
-            "title": "Rensselaer Polytechnic Institute",
-            "subtitle": "M.S, Information Technology & Web Sciences",
-            "period": "2012 - 2013",
+            "title": "amazing college",
+            "subtitle": "B.S, Computer Science",
+            "period": "2005 - 2009",
             "grade": "GPA 3.8/4.0"
         }
     ],
