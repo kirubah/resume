@@ -93,6 +93,7 @@ function project(item){
                     ${getIcon("calendar")}
                     ${item.period}
                 </div>
+            </div>
         </div>
         <ul>
             ${list(item.points)}
@@ -123,7 +124,7 @@ q("#education").appendChild(
         )
     )
 );
-q("#project").appendChild(
+q("#projects").appendChild(
     getNode(
         list(
             resume.project.map(project),

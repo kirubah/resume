@@ -110,16 +110,17 @@ h4{
     font-size: var(--font-s);
     color: var(--accent-color);
 }
-#profile > div, #experience > div, #education > div{
+.right{
+    min-width: 140px;
+}
+#profile > div, #experience > div, #education > div, #projects > div{
    padding-left: 18px;
+   padding-right: 12px;
 }
-#experience > div{
-    padding-right: 12px;
-}
-#experience ul{
+#experience ul, #projects ul{
     padding-left: 24px;
 }
-#experience ul li{
+#experience ul li, #projects ul li{
     margin-bottom: 8px;
 }
 #education section{

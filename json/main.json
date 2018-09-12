@@ -10,22 +10,22 @@
     "profile": "I am a full stack developer who loves learning and building high quality software. My passion is to work on creative solutions to real problems alongside a team of smart, dedicated colleagues. I value collaboration and open communication and pride myself on building close working relationships with the people around me.",
     "experience":[
         {
-            "title": "Systems Engineer",
+            "title": "Intern @ Quay Technologies",
+            "period": "Dec 2017 - Mar 2018",
+            "location": "Singapore",
+            "points":[
+                "Created PoC for Blockchain based Fundraising Platform and deployed in AWS Ubuntu server.",
+                "Explored various Blockchain Platforms like Ethereum, Hyperledger Fabric, Corda, Zilliqa."
+            ] 
+        },
+        {
+            "title": "Systems Engineer @ Tata Consultancy Services",
             "period": "Aug 2012 - Dec 2016",
             "location": "Chennai",
             "points":[
                 "Designed and developed dashboards to transform raw data into insights in an efficient manner to manipulate various metrics and trends for different Nielsen products using Agile methodology.",
                 "Being an integral part of  OpsConsole team for more than 4 years, have been involved in overall end to end SDLC activities and also DevOps.",
                 "Appreciation from client Nielsen for outstanding contribution to GTAM program implementation."
-            ] 
-        },
-        {
-            "title": "Intern (Full Time)",
-            "period": "Dec 2017 - Mar 2018",
-            "location": "Singapore",
-            "points":[
-                "Created PoC for Blockchain based Fundraising Platform and deployed in AWS Ubuntu server.",
-                "Explored various Blockchain Platforms like Ethereum, Hyperledger Fabric, Corda, Zilliqa."
             ] 
         }
     ],
