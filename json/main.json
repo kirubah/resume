@@ -1,60 +1,60 @@
 {
-    "name": "John Doe",
+    "name": "Kirubaharan Abimanyu",
     "title": "Full Stack Engineer",
-    "location": "San Francisco Bay Area",
-    "linkedin": "https://linkedin.com/in/karthik-abimanyu",
+    "location": "Singapore",
+    "linkedin": "https://linkedin.com/",
     "github":"https://github.com/xyz",
-    "address": ["527 xyzline Ave,", "xyz land, CA 12345"],
-    "mobile": "+1-123-456-9867",
-    "email": "xyz@gmail.com",
+    "address": ["5-339 Blk-308,", "Clementi Ave-4, Singapore 120308"],
+    "mobile": "+65 91247105",
+    "email": "kirubaharan.nus@gmail.com",
     "profile": "I am a full stack developer who loves learning and building high quality software. My passion is to work on creative solutions to real problems alongside a team of smart, dedicated colleagues. I value collaboration and open communication and pride myself on building close working relationships with the people around me.",
     "experience":[
         {
-            "title": "Software Engineer",
-            "period": "Feb 2014 - present",
-            "location": "San Jose",
+            "title": "Systems Engineer",
+            "period": "Aug 2012 - Dec 2016",
+            "location": "Chennai",
             "points":[
-                "Full stack iOS developer working on a cloud-first, microservices based system involving video content delivery to TV applications on multiple client platforms (Set Top Boxes or STBs, iPads/iPhones, Android tablets/Phones etc).",
-                "Designed, developed & unit tested components across the full stack, from Control Plane (RESTful backend web services) to iOS app on iPads and iPhones.",
-                "Led reviews for architectural discussions on MVP feature decomposition which accelerated feature development velocity by 30%."
+                "Designed and developed dashboards to transform raw data into insights in an efficient manner to manipulate various metrics and trends for different Nielsen products using Agile methodology.",
+                "Being an integral part of  OpsConsole team for more than 4 years, have been involved in overall end to end SDLC activities and also DevOps.",
+                "Appreciation from client Nielsen for outstanding contribution to GTAM program implementation."
             ] 
         },
         {
-            "title": "Software Engineer",
-            "period": "Feb 2014 - present",
-            "location": "San Jose",
+            "title": "Intern (Full Time)",
+            "period": "Dec 2017 - Mar 2018",
+            "location": "Singapore",
             "points":[
-                "Full stack iOS developer working on a cloud-first, microservices based system involving video content delivery to TV applications on multiple client platforms (Set Top Boxes or STBs, iPads/iPhones, Android tablets/Phones etc).",
-                "Designed, developed & unit tested components across the full stack, from Control Plane (RESTful backend web services) to iOS app on iPads and iPhones.",
-                "Led reviews for architectural discussions on MVP feature decomposition which accelerated feature development velocity by 30%."
-            ] 
-        },
-        {
-            "title": "Software Engineer",
-            "period": "Feb 2014 - present",
-            "location": "San Jose",
-            "points":[
-                "Full stack iOS developer working on a cloud-first, microservices based system involving video content delivery to TV applications on multiple client platforms (Set Top Boxes or STBs, iPads/iPhones, Android tablets/Phones etc).",
-                "Designed, developed & unit tested components across the full stack, from Control Plane (RESTful backend web services) to iOS app on iPads and iPhones.",
-                "Led reviews for architectural discussions on MVP feature decomposition which accelerated feature development velocity by 30%."
+                "Created PoC for Blockchain based Fundraising Platform and deployed in AWS Ubuntu server.",
+                "Explored various Blockchain Platforms like Ethereum, Hyperledger Fabric, Corda, Zilliqa."
             ] 
         }
     ],
     "education": [
         {
-            "title": "Awesome University",
-            "subtitle": "M.S, Computer Science",
-            "period": "2012 - 2013",
-            "grade": "GPA 3.8/4.0"
+            "title": "National University of Singapore",
+            "subtitle": "MTech, Software Engineering",
+            "period": "Jan 2017 - Jun 2018",
+            "grade": "GPA 3.38/5.0"
         },
         {
-            "title": "amazing college",
-            "subtitle": "B.S, Computer Science",
-            "period": "2005 - 2009",
-            "grade": "GPA 3.8/4.0"
+            "title": "SASTRA University",
+            "subtitle": "BTech, Computer Science & Engineering",
+            "period": "Jun 2008 - May 2012",
+            "grade": "GPA 7.49/10"
         }
     ],
-    "languages": ["Javascript", "Java"],
+    "project": [
+        {
+            "title": "Blockchain based Fundraising Platform (BFP)",
+            "period": "Aug 2017 - Mar 2018",
+            "points":[
+                "As part of MTech Software Engineering course at NUS, have completed the entire Software Development Life Cycle (SDLC) Project.",
+                "The frontend consist of PHP and MySQL based website for creating and listing the campaigns while the backend consist of Graphene Blockchain to fund the campaigns and an android App to perform QR code based transaction with the Blockchain Platform using REST API.",
+                "Secured ‘A-’ grade (4.5/5.0) during the project evaluation."
+            ] 
+        }
+    ],
+    "languages": ["Java", "Python", "Javascript","HTML","CSS" ],
     "tools": ["Node", "Expess", "React", "Redux", "Polymer"],
     "others": ["Design patterns", "ARC"]
 }

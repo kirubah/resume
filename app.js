@@ -84,6 +84,21 @@ function education(item){
     </div>
     `   
 }
+function project(item){
+    return `
+        <div class="head">
+            <div class="left">${item.title}</div>
+            <div class="right">
+                <div class="period icon-div">
+                    ${getIcon("calendar")}
+                    ${item.period}
+                </div>
+        </div>
+        <ul>
+            ${list(item.points)}
+        </ul>
+    `
+}
 const response = await fetch("json/main.json");
 const resume = await response.json();
 q("#idcard").appendChild(getNode(idcard(resume)));
@@ -107,6 +122,15 @@ q("#education").appendChild(
             'section'
         )
     )
+);
+q("#project").appendChild(
+    getNode(
+        list(
+            resume.project.map(project),
+            'div'
+        )
+    )
 )
+
 
 })();
